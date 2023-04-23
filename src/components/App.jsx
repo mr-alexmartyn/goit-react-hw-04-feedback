@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FeedbackOptions } from 'components/FeedbackOptions/FeedbackOptions';
+import FeedbackOptions from 'components/FeedbackOptions/FeedbackOptions';
 import Statistics from './Statistics/Statistics';
 import Notification from './Notification/Notification';
 import { Section } from 'components/Section/Section';
