@@ -1,21 +1,21 @@
 import React from 'react';
 import { FeedbackList, FeedbackButton } from 'components/FeedStyled.styled';
 
-function FeedbackOptions() {
+function FeedbackOptions({ handleGood, handleNeutral, handleBad }) {
   return (
     <FeedbackList>
       <li>
-        <FeedbackButton type="button" onClick={this.props.handleGood}>
+        <FeedbackButton type="button" onClick={handleGood}>
           Good
         </FeedbackButton>
       </li>
       <li>
-        <FeedbackButton type="button" onClick={this.props.handleNeutral}>
+        <FeedbackButton type="button" onClick={handleNeutral}>
           Neutral
         </FeedbackButton>
       </li>
       <li>
-        <FeedbackButton type="button" onClick={this.props.handleBad}>
+        <FeedbackButton type="button" onClick={handleBad}>
           Bad
         </FeedbackButton>
       </li>

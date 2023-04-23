@@ -10,7 +10,7 @@ const App = () => {
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
 
-  const totalStats = () => this.good + this.neutral + this.bad;
+  const totalStats = () => good + neutral + bad;
 
   const handleGood = () => {
     setGood(prev => prev + 1);
