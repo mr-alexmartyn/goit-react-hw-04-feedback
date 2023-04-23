@@ -1,8 +1,8 @@
 {
-  "name": "goit-react-hw-02-feedback_1",
+  "name": "goit-react-hw-02-feedback",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mr-alexmartyn.github.io/goit-react-hw-02-feedback/",
+  "homepage": "https://mr-alexmartyn.github.io/goit-react-hw-04-feedback/",
   "dependencies": {
     "@emotion/styled": "^11.10.6",
     "@testing-library/jest-dom": "^5.16.3",
